@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+	font-family: "Roboto", serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+.App{
+ 	text-align: center;
+	background-color : #D6536D;
+	width : 300px;
+	height : 130px;
+	color : #EBE9E1;
+	margin-left : 40%;
+	margin-top : 1%;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	padding : 5px;
+	border-radius : 20px;
+}
+
+input[type = "text"]{
+	width : 250px;
+	height : 30px;
+	border-radius : 10px;
+	border : none;
+	padding : 5px;
+	font-size : 20px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+input[type = "submit"]{
+	width : 120px;	
+	height : 30px;
+	margin-bottom : 10px;
+	font-weight : bold;
+	cursor : pointer;
+	background-color : #E7717D;
+	border : none;
+	border-radius : 10px;
+	color : #EBE9E1;
+}
+
+input[type = "submit"]:hover{
+	border : 1px solid #C2CAD0;
+	background-color : #D6536D; 
+	color : #C2CAD0;
+}
+
+@media screen and (min-width : 320px) and (max-width : 667px){
+	.App{
+		margin-left : 110px;
+		margin-top : 50px;
+	}
+}
